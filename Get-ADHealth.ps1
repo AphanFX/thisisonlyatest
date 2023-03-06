@@ -54,11 +54,11 @@ $reportime = Get-Date
 $reportemailsubject = "Domain Controller Health Report"
 
 $smtpsettings = @{
-	To	    = 'acallahan@dataperk.com'
-	From    = 'DomainCheck@dataperk.com'
+	To	    = 'to@domain.com'
+	From    = 'from@domain.com'
 	Subject = "$reportemailsubject - $now"
-	SmtpServer = "mail.dataperk.com"
-	Port    = "366"
+	SmtpServer = "mail.domain.com"
+	Port    = "25"
 }
 
 #...................................
